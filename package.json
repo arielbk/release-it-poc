@@ -11,6 +11,7 @@
     "release-it": "^15.6.0"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "release-it"
   }
 }
