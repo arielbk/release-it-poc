@@ -1,0 +1,16 @@
+{
+  "name": "release-it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "husky": "^8.0.3",
+    "release-it": "^15.6.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
