@@ -23,6 +23,10 @@
             "section": "🐛 Bug fixes"
           },
           {
+            "type": "docs",
+            "section": "📓 Documentation"
+          },
+          {
             "type": "chore",
             "section": "🧹 Chores"
           }
