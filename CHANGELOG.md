@@ -1,5 +1,17 @@
 
 
+## [1.1.0](https://github.com/arielbk/release-it-poc/compare/1.0.1...1.1.0) (2023-02-02)
+
+
+### 🚀 New features
+
+* add index js ([e8e70fb](https://github.com/arielbk/release-it-poc/commit/e8e70fb2681660b172c42632543b36c01ebb1d6b))
+
+
+### 📓 Documentation
+
+* add tech links to project readme ([4f735e3](https://github.com/arielbk/release-it-poc/commit/4f735e35c9999f3ddc798ab380def69619231a91))
+
 ## [1.0.1](https://github.com/arielbk/release-it-poc/compare/1.1.0...1.0.1) (2023-02-02)
 
 
