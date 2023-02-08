@@ -6,12 +6,21 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/cz-commitlint": "^17.4.2",
     "@release-it/conventional-changelog": "^5.1.1",
+    "commitizen": "^4.3.0",
     "husky": "^8.0.3",
+    "inquirer": "8",
     "release-it": "^15.6.0"
   },
   "scripts": {
     "prepare": "husky install",
-    "release": "release-it"
+    "release": "release-it",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   }
 }
