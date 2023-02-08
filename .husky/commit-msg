@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx commitlint --edit $1
+branch="$(git rev-parse --abbrev-ref HEAD)"
+if [ "$branch" == "main" ] || [ "$branch" == "staging" ]; then
+	echo "Linting commit message on $branch branch"
+  npx commitlint --edit $1
+fi
+
